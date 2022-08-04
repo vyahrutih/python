@@ -1,0 +1,13 @@
+version:0.2
+phases:
+ pre-build:
+ commands:
+   -echo pre build stage
+   build:
+   commmands:
+   -echo build stage
+   post-build:
+    -echo post build stage
+ artifacts:
+ files:
+  -deploy elasticbeanstalk-ap-south-1-359169968818:
