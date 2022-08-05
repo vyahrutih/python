@@ -2,12 +2,12 @@
 phases:
  pre-build:
  commands:
-   -echo pre build stage
+   echo pre build stage
    build:
    commmands:
-   -echo build stage
+   echo build stage
    post-build:
-    -echo post build stage
+    echo post build stage
  artifacts:
  files:
-  -deploy elasticbeanstalk Ludo-env
+  deploy elasticbeanstalk Ludo-env
