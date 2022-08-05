@@ -2,12 +2,12 @@
 phases:
  pre-build:
  commands:
-   print pre build stage
+   
    build:
    commmands:
-   print build stage
+   
    post-build:
-    print post build stage
+   
  artifacts:
  files:
   deploy elasticbeanstalk Ludo-env
