@@ -1,12 +1,15 @@
-
+version:3.9
 phases:
  pre-build:
  commands:
+     echo enter in tothe pre-build state
    
    build:
    commmands:
+      echo enter in to the buid stage
    
    post-build:
+     -evho enter in to post-build stage
    
  artifacts:
  files:
